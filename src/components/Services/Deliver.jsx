@@ -24,7 +24,7 @@ const Deliver = () => {
           <div className="col-lg-3 col-md-6">
             <div className="deliver-single">
               <div className="icon">
-                <RiVuejsFill size={40} style={{ color: '#ff4e00' }}  />
+                <RiVuejsFill size={40} style={{ color: "#ff4e00" }} />
               </div>
               <h3 className="deliver-title">MEVN Development</h3>
               <div className="deliver-text">
@@ -44,15 +44,12 @@ const Deliver = () => {
                   </ul>
                 </div>
               </div>
-              <span className="deliver_item-url">
-                <a href="#">learn more</a>
-              </span>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="deliver-single">
               <div className="icon">
-                <IoLogoAngular size={40} style={{ color: '#ff4e00' }}  />
+                <IoLogoAngular size={40} style={{ color: "#ff4e00" }} />
               </div>
               <h3 className="deliver-title">MEAN Development</h3>
               <div className="deliver-text">
@@ -72,15 +69,13 @@ const Deliver = () => {
                   </ul>
                 </div>
               </div>
-              <span className="deliver_item-url">
-                <a href="#">learn more</a>
-              </span>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="deliver-single">
               <div className="icon">
-                <RiReactjsLine size={40} style={{ color: '#ff4e00' }} /> {/* Changed to #ff4e00 */}
+                <RiReactjsLine size={40} style={{ color: "#ff4e00" }} />{" "}
+                {/* Changed to #ff4e00 */}
               </div>
               <h3 className="deliver-title">MERN Development</h3>
               <div className="deliver-text">
@@ -100,9 +95,6 @@ const Deliver = () => {
                   </ul>
                 </div>
               </div>
-              <span className="deliver_item-url">
-                <a href="#">learn more</a>
-              </span>
             </div>
           </div>
         </div>

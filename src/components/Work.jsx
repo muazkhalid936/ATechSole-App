@@ -41,7 +41,7 @@ const Work = () => {
               <div className="work-content">
                 <div className="work-title">
                   <span className="title">
-                    <a href="Project-Detail">
+                    <a href="#">
                     Resturon <FaCaretRight className="arrow" />
                     </a>
                   </span>
@@ -94,7 +94,7 @@ const Work = () => {
               <div className="work-content">
                 <div className="work-title">
                   <span className="title">
-                    <a href="Project-Detail">
+                    <a href="#">
                     FurniNest <FaCaretRight className="arrow" />
                     </a>
                   </span>
@@ -149,7 +149,7 @@ const Work = () => {
               <div className="work-content">
                 <div className="work-title">
                   <span className="title">
-                    <a href="Project-Detail">
+                    <a href="#">
                       Army-map <FaCaretRight className="arrow" />
                     </a>
                   </span>
@@ -202,7 +202,7 @@ const Work = () => {
               <div className="work-content">
                 <div className="work-title">
                   <span className="title">
-                    <a href="Project-Detail">
+                    <a href="#">
                       RideZib <FaCaretRight className="arrow" />
                     </a>
                   </span>

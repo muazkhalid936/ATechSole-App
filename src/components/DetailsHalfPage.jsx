@@ -47,9 +47,6 @@ const DetailsHalfPage = () => {
                   foundation of effective execution, leading to innovative and
                   impactful outcomes for our clients.
                 </p>
-                <a className="default-anchor" href="#">
-                  Learn More
-                </a>
               </div>
             </div>
             <div className="col-lg-6">
@@ -116,9 +113,6 @@ const DetailsHalfPage = () => {
                     </ul>
                   </div>
                 </div>
-                <span className="deliver_item-url">
-                  <a href="#">learn more</a>
-                </span>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -146,9 +140,6 @@ const DetailsHalfPage = () => {
                     </ul>
                   </div>
                 </div>
-                <span className="deliver_item-url">
-                  <a href="#">learn more</a>
-                </span>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -176,9 +167,6 @@ const DetailsHalfPage = () => {
                     </ul>
                   </div>
                 </div>
-                <span className="deliver_item-url">
-                  <a href="#">learn more</a>
-                </span>
               </div>
             </div>
           </div>

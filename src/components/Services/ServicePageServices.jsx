@@ -30,9 +30,6 @@ const ServicePageServices = () => {
                       <li>Java Development</li>
                     </ul>
                   </div>
-                  <span className="services-list__single-item-url">
-                    <a href="product_design">learn more</a>
-                  </span>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6">
@@ -57,9 +54,6 @@ const ServicePageServices = () => {
                       <li>AR & VR App Development</li>
                     </ul>
                   </div>
-                  <span className="services-list__single-item-url">
-                    <a href="service_detail">learn more</a>
-                  </span>
                 </div>
               </div>
               <div
@@ -86,9 +80,6 @@ const ServicePageServices = () => {
                       <li>KIOSK Software Development</li>
                     </ul>
                   </div>
-                  <span className="services-list__single-item-url">
-                    <a href="service_detail">learn more</a>
-                  </span>
                 </div>
               </div>
               <div
@@ -112,9 +103,6 @@ const ServicePageServices = () => {
                       <li>Voice Enabled Technology</li>
                     </ul>
                   </div>
-                  <span className="services-list__single-item-url">
-                    <a href="consulting">learn more</a>
-                  </span>
                 </div>
               </div>
             </div>
@@ -155,9 +143,6 @@ const ServicePageServices = () => {
                       <li>Ethereum App</li>
                     </ul>
                   </div>
-                  <span className="services-list__single-item-url">
-                    <a href="product_design">learn more</a>
-                  </span>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6">
@@ -182,9 +167,6 @@ const ServicePageServices = () => {
                       <li>API, CSV, Excel & Database</li>
                     </ul>
                   </div>
-                  <span className="services-list__single-item-url">
-                    <a href="service_detail">learn more</a>
-                  </span>
                 </div>
               </div>
               <div
@@ -211,9 +193,6 @@ const ServicePageServices = () => {
                       <li>E-commerce Marketing & Consulting</li>
                     </ul>
                   </div>
-                  <span className="services-list__single-item-url">
-                    <a href="service_detail">learn more</a>
-                  </span>
                 </div>
               </div>
               <div
@@ -237,9 +216,6 @@ const ServicePageServices = () => {
                       <li>Brand Identity</li>
                     </ul>
                   </div>
-                  <span className="services-list__single-item-url">
-                    <a href="consulting">learn more</a>
-                  </span>
                 </div>
               </div>
             </div>

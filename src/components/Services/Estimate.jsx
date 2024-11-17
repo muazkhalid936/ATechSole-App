@@ -1,6 +1,9 @@
 import React from "react";
 
 const Estimate = () => {
+
+
+  
   return (
     <section className="estimate-area">
       <div className="container">
@@ -17,7 +20,7 @@ const Estimate = () => {
                 take advantage of top talents that mix tech know-how and
                 creative ideas
               </h4>
-              <a href="#" className="main_button service_btn_2">
+              <a href="/Contact" className="main_button service_btn_2">
                 <span className="button__label">Schedule a Call</span>
               </a>
             </div>
