@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLightbulb, FaBriefcase, FaDesktop, FaConnectdevelop, FaHandshake, FaPagelines, FaComments, FaPager } from 'react-icons/fa'; // Importing necessary icons
+import { FaLightbulb, FaBriefcase, FaDesktop, FaConnectdevelop, FaHandshake, FaPagelines, FaComments, FaPager } from 'react-icons/fa';
 
 const Deliver = () => {
   return (
@@ -17,59 +17,59 @@ const Deliver = () => {
             <div className="consulting_all-content">
               <div className="consulting-single wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="50ms">
                 <div className="icon">
-                  <FaLightbulb style={{ color: 'orange' }} /> {/* Orange lightbulb icon */}
+                  <FaLightbulb style={{ color: 'orange' }} />
                 </div>
                 <h5>Lean startup</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat est temporibus natus velit fugiat quam molestiae perferendis voluptas saepe aut itaque ut minus voluptate aspernatur exercitationem quibusdam, beatae sunt enim?</p>
+                <p>ATechSole specializes in transforming ideas into successful startups by focusing on innovative and cost-effective solutions tailored to your needs.</p>
               </div>
               <div className="consulting-single wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="100ms">
                 <div className="icon">
-                  <FaBriefcase style={{ color: 'orange' }} /> {/* Orange briefcase icon */}
+                  <FaBriefcase style={{ color: 'orange' }} />
                 </div>
                 <h5>Digital transformation</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat est temporibus natus velit fugiat quam molestiae perferendis voluptas saepe aut itaque ut minus voluptate aspernatur exercitationem quibusdam, beatae sunt enim?</p>
+                <p>We empower businesses with cutting-edge technologies to revolutionize operations, enhance customer experiences, and drive growth.</p>
               </div>
               <div className="consulting-single wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="150ms">
                 <div className="icon">
-                  <FaDesktop style={{ color: 'orange' }} /> {/* Orange desktop icon */}
+                  <FaDesktop style={{ color: 'orange' }} />
                 </div>
                 <h5>Agile consultancy</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat est temporibus natus velit fugiat quam molestiae perferendis voluptas saepe aut itaque ut minus voluptate aspernatur exercitationem quibusdam, beatae sunt enim?</p>
+                <p>Our agile experts help streamline processes and improve efficiency by adopting flexible development methodologies.</p>
               </div>
               <div className="consulting-single wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
                 <div className="icon">
-                  <FaConnectdevelop style={{ color: 'orange' }} /> {/* Orange connectdevelop icon */}
+                  <FaConnectdevelop style={{ color: 'orange' }} />
                 </div>
-                <h5>Devops consulting</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat est temporibus natus velit fugiat quam molestiae perferendis voluptas saepe aut itaque ut minus voluptate aspernatur exercitationem quibusdam, beatae sunt enim?</p>
+                <h5>DevOps consulting</h5>
+                <p>ATechSole delivers seamless integration between development and operations, enhancing collaboration and productivity.</p>
               </div>
               <div className="consulting-single wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="250ms">
                 <div className="icon">
-                  <FaHandshake style={{ color: 'orange' }} /> {/* Orange handshake icon */}
+                  <FaHandshake style={{ color: 'orange' }} />
                 </div>
                 <h5>Project takeover</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat est temporibus natus velit fugiat quam molestiae perferendis voluptas saepe aut itaque ut minus voluptate aspernatur exercitationem quibusdam, beatae sunt enim?</p>
+                <p>We step in to rescue or optimize existing projects, ensuring their successful completion and alignment with business goals.</p>
               </div>
               <div className="consulting-single wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div className="icon">
-                  <FaPagelines style={{ color: 'orange' }} /> {/* Orange pagelines icon */}
+                  <FaPagelines style={{ color: 'orange' }} />
                 </div>
                 <h5>Product scale up</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat est temporibus natus velit fugiat quam molestiae perferendis voluptas saepe aut itaque ut minus voluptate aspernatur exercitationem quibusdam, beatae sunt enim?</p>
+                <p>Our team helps scale your products efficiently, enabling you to meet growing demand and expand your market presence.</p>
               </div>
               <div className="consulting-single wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="350ms">
                 <div className="icon">
-                  <FaComments style={{ color: 'orange' }} /> {/* Orange comments icon */}
+                  <FaComments style={{ color: 'orange' }} />
                 </div>
                 <h5>Tech stack recommendation</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat est temporibus natus velit fugiat quam molestiae perferendis voluptas saepe aut itaque ut minus voluptate aspernatur exercitationem quibusdam, beatae sunt enim?</p>
+                <p>We provide expert guidance on the best technologies and frameworks to build and optimize your solutions.</p>
               </div>
               <div className="consulting-single wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                 <div className="icon">
-                  <FaPager style={{ color: 'orange' }} /> {/* Orange pager icon */}
+                  <FaPager style={{ color: 'orange' }} />
                 </div>
                 <h5>Software Audit</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat est temporibus natus velit fugiat quam molestiae perferendis voluptas saepe aut itaque ut minus voluptate aspernatur exercitationem quibusdam, beatae sunt enim?</p>
+                <p>ATechSole conducts thorough audits to identify bottlenecks and provide actionable insights for improving software performance and security.</p>
               </div>
             </div>
           </div>

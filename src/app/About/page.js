@@ -1,4 +1,5 @@
 "use client";
+import Requironment from "@/components/Consult/Requironment";
 import ContactTeam from "@/components/ContactTeam";
 import End from "@/components/Design/End";
 import Services from "@/components/Services";
@@ -47,6 +48,7 @@ const page = () => {
         </div>
         <Deliver />
         <ContactTeam />
+        <Requironment />
         <End/>
       </div>
     </>

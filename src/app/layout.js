@@ -15,10 +15,12 @@ import "../../public/assets/css/defult.css";
 import "../../public/assets/css/jquery-ui.min.css";
 import "../../public/assets/css/jquery.mCustomScrollbar.css";
 import "../../public/assets/css/responsive.css";
+import WhatsAppIcon from "@/components/Whatsapp";
 
 export const metadata = {
   title: "ATechSole",
-  description: "ATechSole offers cutting-edge services in AI, web development, app development, and cyber security to help businesses thrive in the digital age.",
+  description:
+    "ATechSole offers cutting-edge services in AI, web development, app development, and cyber security to help businesses thrive in the digital age.",
 };
 
 export default function RootLayout({ children }) {
@@ -32,9 +34,18 @@ export default function RootLayout({ children }) {
       <body className="mx-auto">
         {/* <Sidebar /> */}
         <Navbar />
-        <div className="scroll-area  cursor-pointer">
+        <div
+          className="scroll-area cursor-pointer"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "10px",
+          }}
+        >
           <FaAngleUp />
         </div>
+        <div className="" style={{ marginBottom: "50px" }}></div>
         {children}
         <Footer />
         {/* Include the scripts at the bottom of the body */}

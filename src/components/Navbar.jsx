@@ -4,20 +4,24 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
 import "./Nav.css";
 import Link from "next/link";
-
+import PopupForm from "./PopupForm";
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const sidebarRef = useRef(null); // Ref for the sidebar
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const sidebarRef = useRef(null);
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);
   };
 
-  // Close sidebar when clicking outside of it
+  const togglePopup = () => {
+    setIsPopupOpen((prev) => !prev);
+  };
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
-        setIsSidebarOpen(false); // Close the sidebar
+        setIsSidebarOpen(false);
       }
     };
 
@@ -83,7 +87,8 @@ const Navbar = () => {
               <div className="header-log-reg text-right">
                 <a
                   className="main-menu__estimate-text"
-                  href="javascript:void(0)"
+                  href="#"
+                  onClick={togglePopup} // Toggle popup on click
                 >
                   Schedule a Call
                 </a>
@@ -137,6 +142,15 @@ const Navbar = () => {
               <a href="Career">Careers</a>
             </li>
             <li>
+              <a
+                className="main-menu__estimate-text"
+                href="#"
+                onClick={togglePopup} // Toggle popup on click
+              >
+                Schedule a Call
+              </a>
+            </li>
+            <li>
               <a href="Contact">Contacts</a>
             </li>
             <li>
@@ -145,6 +159,17 @@ const Navbar = () => {
           </ul>
         </nav>
       </div>
+      {isPopupOpen && (
+        <div className="popup-overlay" onClick={togglePopup}>
+          <div
+            className="popup-content"
+            style={{ width: "80%", overflowY: "scroll", maxHeight: "80vh" }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <PopupForm />
+          </div>
+        </div>
+      )}
     </>
   );
 };

@@ -36,11 +36,6 @@ const Hero = () => {
               Companythat Endeavor on Highly Proficient, Intuitive and Cost
               Effective Software solutions.
             </p>
-            <div className="down-butn">
-              <a href="javascript:void(0)" className="down">
-               <FaCaretDown />
-              </a>
-            </div>
           </div>
         </div>
       </div>

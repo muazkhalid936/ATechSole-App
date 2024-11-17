@@ -8,13 +8,9 @@ const Requironment = () => {
           <div className="row">
             <div className="col-lg-6 col-md-6">
               <div className="requirements-heding-title">
-                <h2>First of all I will understand and then I will work</h2>
+                <h2>Understanding First, Delivering Excellence</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores, numquam tempora voluptatum animi eos accusantium
-                  earum placeat, sunt ullam.consectetur adipisicing elit.
-                  Dolores, numquam tempora voluptatum animi Reiciendis velit aut
-                  molestias adipisci nobis non earum architecto tenetur nulla.
+                  At ATechSole, we prioritize understanding your unique needs before diving into solutions. Our approach is rooted in thoughtful analysis, ensuring that every step aligns with your goals. From addressing challenges to crafting innovative strategies, we focus on delivering excellence tailored to your requirements.
                 </p>
                 <a className="default-anchor" href="#">
                   Learn More
@@ -23,7 +19,7 @@ const Requironment = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="requirements-content">
-                <h2 className="requirement_title">Main Requirements</h2>
+                <h2 className="requirement_title">Our Core Requirements</h2>
                 <div className="requirement_splitter"></div>
                 <div className="requirement-daigram">
                   <div className="daigram_item-single">
@@ -56,15 +52,14 @@ const Requironment = () => {
             <div className="col-lg-8 col-md-7">
               <div className="talks-content">
                 <p>
-                  If you have any software problem or stuck in any work, you can
-                  contact us.We are always with you for any help in any work
+                  Have a software challenge or need expert advice? ATechSole is here to help. Our team is dedicated to providing solutions and guidance to ensure your success. Reach out to us for support anytime!
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-5">
               <div className="default-button">
                 <a href="#" className="main_button service_btn">
-                  <span className="button__label">Lets's talk</span>
+                  <span className="button__label">Let's Talk</span>
                 </a>
               </div>
             </div>
